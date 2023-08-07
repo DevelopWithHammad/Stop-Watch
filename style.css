@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(103, 103, 103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    color: rgb(38, 38, 38);
+    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 580px;
+}
+.btn-container{
+    background-color: silver;
+    padding: 10px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-size: 20px;
+}
+
+.btn {
+    width: 170px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 6px;
+    
+}
+#start{
+    background-color: rgb(113, 255, 94);
+
+}
+#stop{
+    background-color: rgb(255, 94, 94);
+    
+}
+#reset{
+    background-color: rgb(255, 255, 94);
+}
+
+
+
+
+/* hover Effect */
+
+
+#start:hover{
+    background-color: rgb(82, 253, 60);
+
+}
+#stop:hover{
+    background-color: rgb(249, 71, 71);
+    
+}
+#reset:hover{
+    background-color: rgb(252, 252, 52);
+}
+
+
+
+/* active Effect */
+
+
+
+
+
+#start:active{
+    background-color: rgb(122, 251, 105);
+
+}
+#stop:active{
+    background-color: rgb(250, 118, 118);
+    
+}
+#reset:active{
+    background-color: rgb(253, 253, 115);
+}
+
+
+
+
+
+
