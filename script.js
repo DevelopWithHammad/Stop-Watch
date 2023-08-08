@@ -2,7 +2,6 @@ var hr = 0;
 var min = 0;
 var sec = 0;
 var milliSec = 0;
-
 var timer = false;
 
 
@@ -15,7 +14,6 @@ function start() {
 
 
 function stop() {
-
     timer = false;
 }
 
